@@ -19,18 +19,18 @@ Users can **pick up, drag, and throw** the GIFs with both **mouse and touchscree
 ```bash
 git clone https://github.com/your-username/bouncing-gifs.git
 cd bouncing-gifs
+```
 
-
-2. Open the project
+### 2. Open the project
 Simply open index.html in your browser.
 No build tools or servers required.
 
 
-3. Add your GIFs
+### 3. Add your GIFs
 Place your GIF files in the assets/ folder and update the gifs array in script.js.
 
 
-Tech Stack
+### Tech Stack
 Vanilla JavaScript (no frameworks)
 
 Canvas API for rendering
