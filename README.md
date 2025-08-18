@@ -4,6 +4,7 @@ This project is a fun JavaScript experiment that animates GIFs floating and boun
 Users can **pick up, drag, and throw** the GIFs with both **mouse and touchscreen support**.
 
 ![](https://hyndzia.xyz/demo.webp)
+
 [Try online!](https://hyndzia.xyz/bouncySuwako.html)
 
 ---
