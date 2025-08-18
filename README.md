@@ -31,10 +31,10 @@ Place your GIF files in the assets/ folder and update the gifs array in script.j
 
 
 ### Tech Stack
-Vanilla JavaScript (no frameworks)
+* Vanilla JavaScript (no frameworks)
 
-Canvas API for rendering
+* Canvas API for rendering
 
-Web Audio API for music beat detection
+* Web Audio API for music beat detection
 
-Pointer Events for cross-platform drag & throw support
+* Pointer Events for cross-platform drag & throw support
