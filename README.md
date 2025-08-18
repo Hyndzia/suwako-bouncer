@@ -3,6 +3,8 @@
 This project is a fun JavaScript experiment that animates GIFs floating and bouncing around the screen.   
 Users can **pick up, drag, and throw** the GIFs with both **mouse and touchscreen support**.
 
+[Try online!](https://hyndzia.xyz/bouncySuwako.html)
+
 ---
 
 ## Features
