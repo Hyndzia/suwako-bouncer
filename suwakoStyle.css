@@ -1,0 +1,56 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden; 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: 
+      linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url('HakureiShrine.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-link {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  font-family: 'UnifrakturCook', cursive;
+  font-size: 1.5rem;
+  color: #A30000;
+  text-decoration: none;
+  background-color: rgba(18, 18, 18, 0);
+  padding: 8px 12px;
+  border-radius: 8px;
+  z-index: 1000;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  user-select: none;
+  text-shadow:
+			 -2px -2px 0 black,
+			  2px -2px 0 black,
+			 -2px  2px 0 black,
+			  2px  2px 0 black;
+}
+
+.back-link:hover {
+  background-color: #A30000;
+  color: #121212;
+  text-shadow: none;
+}
+
+
