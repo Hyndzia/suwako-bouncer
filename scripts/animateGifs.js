@@ -19,7 +19,7 @@ function createGif(x = 100, y = 100) {
     const rotation = Math.random() * 360;
 
     gifs.push({ gif, x, y, dx, dy, rotation, rotationSpeed, isDragging: false });
-    const spawnSound = new Audio("suwako-bouncer/spawn.mp3");
+    const spawnSound = new Audio("assets/spawn.mp3");
     spawnSound.volume = 0.1;
     spawnSound.play();
 }

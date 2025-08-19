@@ -1,5 +1,5 @@
 const MAX_HIT_COUNT = 10;
-const hitSound = new Audio("suwako-bouncer/pop.mp3");
+const hitSound = new Audio("assets/pop.mp3");
 hitSound.volume = 0.3;
 
 function checkCollisions() {

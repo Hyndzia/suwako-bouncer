@@ -1,18 +1,19 @@
-const gifSrc = "https://hyndzia.xyz/about/ja.gif";
+const gifSrc = "assets/suwako.gif";
 const gifs = [];
 let gifCounter = 0;
 window.hitCount = 0;
 
 const removalSounds = [
-    new Audio("https://hyndzia.xyz/baka-cirno.mp3"),
-    new Audio("suwako-bouncer/reimuuu.mp3"),
-    new Audio("suwako-bouncer/ze.mp3"),
+    new Audio("assets/baka-cirno.mp3"),
+    new Audio("assets/reimuuu.mp3"),
+    new Audio("assets/ze.mp3"),
 ];
 const backgrounds = [
-    "suwako-bouncer/HakureiShrine.jpg",
-    "suwako-bouncer/MoriyaShrine.png",
+    "assets/HakureiShrine.jpg",
+    "assets/MoriyaShrine.png",
 ];
 
+//background audio
 const audioLong = new Audio("https://hyndzia.xyz/native-faith.mp3");
 audioLong.volume = 0.07;
 let audioStarted = false;

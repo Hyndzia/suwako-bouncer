@@ -2,7 +2,7 @@
 source.connect(analyser);
 analyser.connect(audioCtx.destination);
 
-analyser.fftSize = 256; // smaller = faster response
+analyser.fftSize = 256;
 const bufferLength = analyser.frequencyBinCount;
 const dataArray = new Uint8Array(bufferLength);
 
@@ -22,7 +22,6 @@ document.body.appendChild(glowOverlay);
 function animateGlow() {
     analyser.getByteFrequencyData(dataArray);
 
-    // Take average of frequency data (general loudness)
     let sum = 0;
     for (let i = 0; i < dataArray.length; i++) {
         sum += dataArray[i];
